@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
-</html>
+<head>
+  <meta charset="utf-8">
+  <title>KeyCreator</title>
+  <style>
+        @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Special+Elite|Yanone+Kaffeesatz');
+  </style>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>KeyCreator</h1>
+
+  <div class="contenedor">
+    <div class="textos">
+          <p class="p1"><strong>¿Aburrido de tener que crear siempre distintas contraseñas?</strong></p>
+          <p>Experimenta la nueva forma de crear contraseñas seguras y sencillas, sin preocuparte de que se te olviden.</p>
+          <p><strong>Para usar KeyCreator, sigue los siguientes pasos:</strong></p>
+          
+          <div class="lista">
+          
+            <p>1.- Piensa en un dígito, mientras mayor sea este, más segura será tu contraseña.</p>
+            <p>2.- Crea la palabra o frase que será tu contraseña.</p>
+          
+          </div><br>
+
+          <input id="offsetlisto" name="numero" placeholder="Tu dígito aquí"><br>
+
+          <p>Escribe tu contraseña a continuación: </p>
+          <input id="txtusuario" type="text" placeholder="Contraseña"><br>
+          <button id="cifrartxt" type="button" class="btn">Cifrar</button>
+          <button id="descifrartxt" type="button" class="btn">Descifrar</button><br>
+          
+
+          <p>Tu contraseña final:</p>
+          <input id="rslt" type="text" placeholder="Resultado"/><br><br>
+          <button id= "limpiar" class="btnlimpiar">Comenzar de nuevo</button><br><br>
+      </div>
+  </div>
+  
+  
+
+
+ <footer class="pie">
+      <p>Desarrollado por Jo Gutiérrez / KeyCreator 2019 / Todos los derechos reservados.</p>
+ </footer>
+
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+<!--<script type="text/javascript" src="app.js"></script>-->
+</body>
+</html> 
