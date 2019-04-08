@@ -1,1 +1,93 @@
-/* Acá va tu código */
+body {
+  background-image: url(https://i2.wp.com/newevolutiondesigns.com/images/freebies/purple-wallpaper-5.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Special Elite', cursive;
+  font-size: 70px;
+  color: white; 
+  text-shadow: 0.01em 0.02em 0.3em;
+}
+
+p.p1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+  text-shadow: 3px 3px 2px #000000;
+}
+
+.textos 	p{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
+  color: white;
+  text-shadow: 3px 3px 2px #000000;
+}
+
+footer.pie{
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20%; 
+}
+
+.footer.pie p {
+	 font-size: 1px;
+	 font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.contenedor:before {
+    width: 65%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    margin: auto;
+}
+
+.textos {
+    position: relative;
+    z-index: 1;
+    padding-top: 15px;
+}
+
+input#offsetlisto {
+	width:70px; height:14px
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  border: 2px solid #F3E2A9;
+  border-radius: 12px;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #F3E2A9;
+}
+
+.btnlimpiar{
+  background-color: white;
+  color: black;
+  border: 2px solid #F3E2A9;
+  border-radius: 12px;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btnlimpiar:hover {
+  background-color: #F3E2A9;
+}
