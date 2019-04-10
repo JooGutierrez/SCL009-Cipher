@@ -8,7 +8,7 @@ window.cipher = {
 	//si pongo "i<=mnsj.lenght" me agrega un caracter más, entonces lo hacemos solo con el "<" o también puede ser con "i=1" 
 			let ascii=mnsj.charCodeAt(i);
 			if(ascii >= 65 && ascii <= 90){
-			//condiciópn ASCII valores mayús
+			//condición ASCII valores mayús
 			result = String.fromCharCode((ascii - 65 + ofst) % 26 + 65);
 			//obtiene el nuevo código ASCII mediante fórmula y convierte el nuevo ASCII en letra del alfabeto
 			}else if(ascii >= 97 && ascii <= 122){

@@ -2,6 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+maximum-scale=1">
   <title>KeyCreator</title>
   <style>
         @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Special+Elite|Yanone+Kaffeesatz');
@@ -9,45 +11,52 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- contenedor principal -->
+<div class="contenedor-main">
 
-  <h1>KeyCreator</h1>
+   <h1>KeyCreator</h1>
+ 
+ <!-- textos left -->
+ <div class="left textos">
+    <p class="p1"><strong>¿Aburrido de tener que crear siempre distintas contraseñas?</strong></p>
+    <p class="p2">Experimenta la nueva forma de crear contraseñas seguras y sencillas, sin preocuparte de que se te olviden.</p><br>
+    <img class="foto" src="https://i.ibb.co/M9P5wS6/candados.png">  
+ </div>
+ <!-- /textos left -->
 
-  <div class="contenedor">
-    <div class="textos">
-          <p class="p1"><strong>¿Aburrido de tener que crear siempre distintas contraseñas?</strong></p>
-          <p>Experimenta la nueva forma de crear contraseñas seguras y sencillas, sin preocuparte de que se te olviden.</p>
-          <p><strong>Para usar KeyCreator, sigue los siguientes pasos:</strong></p>
-          
-          <div class="lista">
-          
+ <!-- textos right -->
+ <div class="right textos">
+    <p><strong>Para usar KeyCreator, sigue los siguientes pasos:</strong></p>
+     <div class="lista">
             <p>1.- Piensa en un dígito, mientras mayor sea este, más segura será tu contraseña.</p>
-            <p>2.- Crea la palabra o frase que será tu contraseña.</p>
-          
-          </div><br>
-
-          <input id="offsetlisto" name="numero" placeholder="Tu dígito aquí"><br>
+            <p>2.- Crea la palabra o frase que será tu contraseña.</p>   
+      </div>
+      <div class="formulario">
+         <input id="offsetlisto" name="numero" placeholder="Ingresa tu dígito aquí"><br>
 
           <p>Escribe tu contraseña a continuación: </p>
-          <input id="txtusuario" type="text" placeholder="Contraseña"><br>
+          <input id="txtusuario" type="text" placeholder="Ingresa tu contraseña inicial aquí"><br>
           <button id="cifrartxt" type="button" class="btn">Cifrar</button>
-          <button id="descifrartxt" type="button" class="btn">Descifrar</button><br>
-          
+          <button id="descifrartxt" type="button" class="btn">Descifrar</button><br>  
 
           <p>Tu contraseña final:</p>
-          <input id="rslt" type="text" placeholder="Resultado"/><br><br>
-          <button id= "limpiar" class="btnlimpiar">Comenzar de nuevo</button><br><br>
+          <input id="rslt" type="text" placeholder="Aquí aparecerá tu contraseña final"/><br>
+          <button id= "limpiar" class="btnlimpiar">Comenzar de nuevo</button><br>
       </div>
-  </div>
-  
-  
+ </div>
+ <!-- /textos right -->
 
+</div>
+<!-- /contenedor principal -->
 
+<!-- pie de página -->
  <footer class="pie">
       <p>Desarrollado por Jo Gutiérrez / KeyCreator 2019 / Todos los derechos reservados.</p>
  </footer>
+<!-- /pie de página -->
 
 <script src="cipher.js"></script>
 <script src="index.js"></script>
-<!--<script type="text/javascript" src="app.js"></script>-->
+
 </body>
 </html> 

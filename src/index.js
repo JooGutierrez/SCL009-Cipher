@@ -7,9 +7,7 @@ document.getElementById("cifrartxt").addEventListener("click",()=>{
 
 	//variable para traer el valor del offset ingresado por el usuario
 	let offset = document.getElementById("offsetlisto").value;
-	//console.log('texto: '+mnsj);
 	let ofst = parseInt(offset); 
-	//console.log('offset: '+ofst);
 
 document.getElementById("rslt").value=cipher.encode(mnsj, ofst);
 	})
@@ -26,9 +24,7 @@ document.getElementById("descifrartxt").addEventListener("click",()=>{
 
 	//variable para traer el valor del offset ingresado por el usuario
 	let offset = document.getElementById("offsetlisto").value;
-	//console.log('texto: '+mnsj);
 	let ofst = parseInt(offset); 
-	//console.log('offset: '+ofst);
 
 document.getElementById("rslt").value=cipher.decode(mnsj,ofst);
 })
